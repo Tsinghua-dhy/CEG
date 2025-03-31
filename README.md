@@ -70,12 +70,11 @@ We conduct experiments on multiple document collections, comparing **Graph-of-Do
 If you use this code, please cite:
 
 ```
-@article{yourcitation,
-  author    = {Authors},
-  title     = {Graph-of-Docs: A Retrieval-Augmented Generation Framework for Document Collections},
-  journal   = {ArXiv},
-  year      = {2024},
-  url       = {https://arxiv.org/abs/2402.16063}
+@article{li2024citation,
+  title={Citation-Enhanced Generation for LLM-based Chatbots},
+  author={Li, Weitao and Li, Junkai and Ma, Weizhi and Liu, Yang},
+  journal={arXiv preprint arXiv:2402.16063},
+  year={2024}
 }
 ```
 
