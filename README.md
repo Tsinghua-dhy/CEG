@@ -7,7 +7,7 @@
 This repository provides the implementation of our paper:  
 **Citation-Enhanced Generation for LLM-based Chatbots**  
 **Authors:** [Weitao Li, Junkai Li, Weizhi Ma, Yang Liu]  
-Published in [ACL 2024]
+Published in [ACL 2024 Main]
 
 [Paper Link](https://arxiv.org/abs/2402.16063)
 
