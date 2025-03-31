@@ -55,7 +55,7 @@ We conduct experiments on multiple hallucination detection datasets, comparing *
 ![HaluEval Results](./pictures/Main_results_on_Halueval.png)
 
 ### Wikibio Results
-![WikiBio GPT-3 Results](./pictures/Main_results_on_Wikibio_GPT-3.png)
+![WikiBio GPT-3 Results](./pictures/Main_results_on_Wikibio_GPT_3.png)
 
 The specific model versions used can be seen in the paper. Please note that the GPT series models at that time differ significantly from the current ones. **To obtain updated results, please rerun the experiments**.
 
