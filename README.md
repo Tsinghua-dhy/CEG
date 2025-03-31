@@ -49,13 +49,13 @@ We conduct experiments on multiple hallucination detection datasets, comparing *
 ## Results
 
 ### FELM Results
-![FELM Results](./pictures/Main_results_on_FELM.png)
+<img src="./pictures/Main_results_on_FELM.png" width="400">
 
 ### Halueval Results
-![HaluEval Results](./pictures/Main_results_on_Halueval.png)
+<img src="./pictures/Main_results_on_Halueval.png" width="400">
 
 ### Wikibio Results
-![WikiBio GPT-3 Results](./pictures/Main_results_on_Wikibio_GPT_3.png)
+<img src="./pictures/Main_results_on_Wikibio_GPT_3.png" width="400">
 
 The specific model versions used can be seen in the paper. Please note that the GPT series models at that time differ significantly from the current ones. **To obtain updated results, please rerun the experiments**.
 
