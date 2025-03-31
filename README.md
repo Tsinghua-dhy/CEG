@@ -28,42 +28,29 @@ Ensure you have the required dependencies installed.
 ## Usage
 
 ### Data Preparation
-1. Download and preprocess the dataset.
-2. Construct the **Document Graph (DocGraph)** using:
 
-```bash
-python build_doc_graph.py --input data/raw_documents.json --output data/doc_graph.pkl
-```
+We put the processed main datasets in the `datasets` folder.
 
 ### Running the Model
 
-Train the retrieval-augmented generation model with:
+Evaluate Our Method Using this Command:
 
 ```bash
-python train.py --config configs/config.yaml
-```
-
-### Evaluation
-
-Evaluate the model performance using:
-
-```bash
-python evaluate.py --checkpoint path/to/model.ckpt --dataset data/test.json
+bash eval.sh 
 ```
 
 ## Experiments
 
-We conduct experiments on multiple document collections, comparing **Graph-of-Docs** with standard RAG baselines. Our findings demonstrate:
-- Improved retrieval quality due to the structured document graph.
-- Enhanced generation fidelity by leveraging fine-grained document relationships.
-- Better performance on factual consistency metrics.
+We conduct experiments on multiple hallucination detection datasets, comparing **CEG** with several SoTA baselines. The main contributions of our work can be summarized as follows:
+- We are the first to propose the use of citation to alleviate hallucination in a post-hoc way with regeneration.
+- We design a novel post-hoc citation-enhanced generation framework combined with retrieval augmentation and NLI to avoid hallucinations, which is flexible for existing LLMs.
+- Experimental results show that our CEG framework achieves the best performance on three hallucination-related benchmarks.
 
 ## Results
 
-| Model | Retrieval Accuracy | Generation Quality (BLEU/ROUGE) |
-|--------|------------------|----------------------------|
-| Standard RAG | XX.X | XX.X |
-| **Graph-of-Docs (Ours)** | **XX.X** | **XX.X** |
+Main Results are here:
+
+The specific model versions used can be seen in the paper. Please note that the GPT series models at that time differ significantly from the current ones. **To obtain updated results, please rerun the experiments**.
 
 ## Citation
 
