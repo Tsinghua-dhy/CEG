@@ -1,7 +1,6 @@
 # Title: Citation-Enhanced Generation for LLM-based Chatbots
 
 ![Main Figure](./pictures/method.png)  
-*(Replace with actual figure path from the paper)*
 
 ## Introduction
 
