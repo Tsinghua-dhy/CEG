@@ -1,4 +1,4 @@
-# Title: Citation-Enhanced Generation for LLM-based Chatbots
+# Citation-Enhanced Generation for LLM-based Chatbots
 
 ![Main Figure](./pictures/method.png)  
 
